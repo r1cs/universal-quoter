@@ -1,0 +1,165 @@
+{
+  "routing": "CLASSIC",
+  "quote": {
+    "methodParameters": {
+      "calldata": "",
+      "value": "0x00",
+      "to": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD"
+    },
+    "blockNumber": "10177547",
+    "amount": "300000000000000000",
+    "amountDecimals": "0.3",
+    "quote": "2250199752743",
+    "quoteDecimals": "2250199.752743",
+    "quoteGasAdjusted": "2250199712869",
+    "quoteGasAdjustedDecimals": "2250199.712869",
+    "gasUseEstimateQuote": "39873",
+    "gasUseEstimateQuoteDecimals": "0.039873",
+    "gasUseEstimate": "472000",
+    "gasUseEstimateUSD": "58.632897718976415801",
+    "simulationStatus": "UNATTEMPTED",
+    "simulationError": false,
+    "gasPriceWei": "625000016",
+    "route": [
+      [
+        {
+          "type": "v3-pool",
+          "address": "0x0cc2b3664c913F8443CF5404B460763DBaA90722",
+          "tokenIn": {
+            "chainId": 5,
+            "decimals": "18",
+            "address": "0xdD69DB25F6D620A7baD3023c5d32761D353D3De9",
+            "symbol": "METH"
+          },
+          "tokenOut": {
+            "chainId": 5,
+            "decimals": "18",
+            "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+            "symbol": "WETH"
+          },
+          "fee": "3000",
+          "liquidity": "86163274839822510792",
+          "sqrtRatioX96": "336325998781810614229963165",
+          "tickCurrent": "-109246",
+          "amountIn": "300000000000000000"
+        },
+        {
+          "type": "v3-pool",
+          "address": "0x5cF8808597Efa6e8497ee3bEE2B0F0Cc0fb5AB94",
+          "tokenIn": {
+            "chainId": 5,
+            "decimals": "18",
+            "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+            "symbol": "WETH"
+          },
+          "tokenOut": {
+            "chainId": 5,
+            "decimals": "6",
+            "address": "0xa9A4F7f968A7CBD2d602487F42D2514713FF7556",
+            "symbol": "FDT"
+          },
+          "fee": "10000",
+          "liquidity": "185043569472454529",
+          "sqrtRatioX96": "3445858944939371602433672857696294",
+          "tickCurrent": "213617",
+          "amountOut": "2250199752743"
+        }
+      ]
+    ],
+    "routeString": "[V3] 100.00% = METH -- 0.3% [0x0cc2b3664c913F8443CF5404B460763DBaA90722] --> WETH -- 1% [0x5cF8808597Efa6e8497ee3bEE2B0F0Cc0fb5AB94] --> FDT",
+    "quoteId": "78506e47-ba1a-4534-8ae8-11f19bcf1be8",
+    "hitsCachedRoutes": true,
+    "portionBips": 0,
+    "portionAmount": "0",
+    "portionAmountDecimals": "0",
+    "quoteGasAndPortionAdjusted": "2250199712869",
+    "quoteGasAndPortionAdjustedDecimals": "2250199.712869",
+    "requestId": "fc1d8dc4-9647-4e53-83b5-57787af55bbc",
+    "tradeType": "EXACT_INPUT",
+    "slippage": 0.5
+  },
+  "requestId": "fc1d8dc4-9647-4e53-83b5-57787af55bbc",
+  "allQuotes": [
+    {
+      "routing": "CLASSIC",
+      "quote": {
+        "methodParameters": {
+          "calldata": "",
+          "value": "0x00",
+          "to": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD"
+        },
+        "blockNumber": "10177547",
+        "amount": "300000000000000000",
+        "amountDecimals": "0.3",
+        "quote": "2250199752743",
+        "quoteDecimals": "2250199.752743",
+        "quoteGasAdjusted": "2250199712869",
+        "quoteGasAdjustedDecimals": "2250199.712869",
+        "gasUseEstimateQuote": "39873",
+        "gasUseEstimateQuoteDecimals": "0.039873",
+        "gasUseEstimate": "472000",
+        "gasUseEstimateUSD": "58.632897718976415801",
+        "simulationStatus": "UNATTEMPTED",
+        "simulationError": false,
+        "gasPriceWei": "625000016",
+        "route": [
+          [
+            {
+              "type": "v3-pool",
+              "address": "0x0cc2b3664c913F8443CF5404B460763DBaA90722",
+              "tokenIn": {
+                "chainId": 5,
+                "decimals": "18",
+                "address": "0xdD69DB25F6D620A7baD3023c5d32761D353D3De9",
+                "symbol": "METH"
+              },
+              "tokenOut": {
+                "chainId": 5,
+                "decimals": "18",
+                "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+                "symbol": "WETH"
+              },
+              "fee": "3000",
+              "liquidity": "86163274839822510792",
+              "sqrtRatioX96": "336325998781810614229963165",
+              "tickCurrent": "-109246",
+              "amountIn": "300000000000000000"
+            },
+            {
+              "type": "v3-pool",
+              "address": "0x5cF8808597Efa6e8497ee3bEE2B0F0Cc0fb5AB94",
+              "tokenIn": {
+                "chainId": 5,
+                "decimals": "18",
+                "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+                "symbol": "WETH"
+              },
+              "tokenOut": {
+                "chainId": 5,
+                "decimals": "6",
+                "address": "0xa9A4F7f968A7CBD2d602487F42D2514713FF7556",
+                "symbol": "FDT"
+              },
+              "fee": "10000",
+              "liquidity": "185043569472454529",
+              "sqrtRatioX96": "3445858944939371602433672857696294",
+              "tickCurrent": "213617",
+              "amountOut": "2250199752743"
+            }
+          ]
+        ],
+        "routeString": "[V3] 100.00% = METH -- 0.3% [0x0cc2b3664c913F8443CF5404B460763DBaA90722] --> WETH -- 1% [0x5cF8808597Efa6e8497ee3bEE2B0F0Cc0fb5AB94] --> FDT",
+        "quoteId": "78506e47-ba1a-4534-8ae8-11f19bcf1be8",
+        "hitsCachedRoutes": true,
+        "portionBips": 0,
+        "portionAmount": "0",
+        "portionAmountDecimals": "0",
+        "quoteGasAndPortionAdjusted": "2250199712869",
+        "quoteGasAndPortionAdjustedDecimals": "2250199.712869",
+        "requestId": "fc1d8dc4-9647-4e53-83b5-57787af55bbc",
+        "tradeType": "EXACT_INPUT",
+        "slippage": 0.5
+      }
+    }
+  ]
+}

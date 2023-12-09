@@ -1,0 +1,1 @@
+{"tokenInChainId":5,"tokenIn":"0xdD69DB25F6D620A7baD3023c5d32761D353D3De9","tokenOutChainId":5,"tokenOut":"0xa9A4F7f968A7CBD2d602487F42D2514713FF7556","amount":"300000000000000000","sendPortionEnabled":true,"type":"EXACT_INPUT","configs":[{"protocols":["V2","V3","MIXED"],"enableUniversalRouter":true,"routingType":"CLASSIC","recipient":"","enableFeeOnTransferFeeFetching":true}]}
