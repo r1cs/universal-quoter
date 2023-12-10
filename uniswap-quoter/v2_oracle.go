@@ -6,6 +6,8 @@ package uniswap_quoter
 import (
 	"bytes"
 	"encoding/json"
+	"errors"
+	"fmt"
 	"io"
 	"math/big"
 	"net/http"
@@ -102,5 +104,14 @@ func V2EndpointQuote(chainId int, recipient, tokenIn, tokenOut string, isExactIn
 	if err != nil {
 		return ret, err
 	}
-	return ret, json.Unmarshal(b, &ret)
+	if resp.StatusCode != http.StatusOK {
+		return ret, fmt.Errorf("request failed: %s", b)
+	}
+	if err := json.Unmarshal(b, &ret); err != nil {
+		return ret, err
+	}
+
+	if len(ret.AllQuotes) == 0 {
+		return ret, errors.New("no quotes found")
+	}
 }
