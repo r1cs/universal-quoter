@@ -11,7 +11,7 @@ func QueryEthPrice(amounts ...float64) (float64, error) {
 	if len(amounts) > 0 {
 		amount = amounts[0]
 	}
-	ret, err := uniswap_quoter.V2EndpointQuote(1, "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266", "ETH", "0xdAC17F958D2ee523a2206206994597C13D831ec7", true, ETH(amount))
+	ret, err := uniswap_quoter.V2EndpointQuote(1, "", "ETH", "USDT", true, ETH(amount))
 	if err != nil {
 		return 0, err
 	}

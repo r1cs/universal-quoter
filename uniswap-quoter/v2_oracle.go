@@ -19,7 +19,7 @@ type V2Config struct {
 	Protocols                      []string `json:"protocols"`
 	EnableUniversalRouter          bool     `json:"enableUniversalRouter"`
 	RoutingType                    string   `json:"routingType"`
-	Recipient                      string   `json:"recipient"`
+	Recipient                      string   `json:"recipient,omitempty"`
 	EnableFeeOnTransferFeeFetching bool     `json:"enableFeeOnTransferFeeFetching"`
 }
 type V2Param struct {
