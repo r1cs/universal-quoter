@@ -114,4 +114,5 @@ func V2EndpointQuote(chainId int, recipient, tokenIn, tokenOut string, isExactIn
 	if len(ret.AllQuotes) == 0 {
 		return ret, errors.New("no quotes found")
 	}
+	return ret, nil
 }
